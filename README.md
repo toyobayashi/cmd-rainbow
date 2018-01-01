@@ -1,8 +1,11 @@
+## Install
+``` bash
+npm install cmd-rainbow --save-dev 
+```
 ## Usage
-
 ``` javascript
 // require('cmd-rainbow')
-const { llog, log, c, slog, wlog, ilog, elog, clearLine, colors } = require('./')
+const { llog, log, c, slog, wlog, ilog, elog, clearLine, colors } = require('cmd-rainbow')
 
 // llog(...arg): without '\n'
 llog('llog(...arg): Without "\\n", ')
@@ -67,3 +70,5 @@ let t = setInterval(() => {
   }
 }, 1000)
 ```
+## License
+* MIT

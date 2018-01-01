@@ -1,0 +1,31 @@
+{
+  "name": "cmd-rainbow",
+  "version": "1.0.0",
+  "description": "Color printing or single line printing",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toyobayashi/cmd-rainbow"
+  },
+  "keywords": [
+    "cmd",
+    "console",
+    "log",
+    "color",
+    "print",
+    "single-line"
+  ],
+  "author": "toyobayashi",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
